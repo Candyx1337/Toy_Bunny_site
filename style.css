@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: InkFree;
+    font-size: 34px;
+    transition: 0.3s;
+    color: #ffffff;
+    font-weight: 100;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+body{
+    background-color: #201b2c;
+    overflow: hidden;
+}
+
+@font-face {
+  font-family: InkFree;
+  src: url(fonts/Inkfree.ttf);
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.poster{
+    height: 100lvh;
+}
+
+.poster img{
+    height: 100%;
+    border-radius: 20px;
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+}
+
+.blocks{
+    width: 100lvh;
+    text-align: center;
+    
+}
+
+.block{
+    background-color: #262035;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    pointer-events: fill;
+}
+
+.about{
+    height: 30lvh;
+}
+
+.note{
+    height: 30lvh;
+}
+
+.back{
+    width: 50%;
+}
+
+.back:hover{
+    color: black;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255);
+    z-index: 100;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+
+}
