@@ -31,6 +31,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .poster{
@@ -47,7 +49,6 @@ body{
 .blocks{
     width: 100lvh;
     text-align: center;
-    
 }
 
 .block{
